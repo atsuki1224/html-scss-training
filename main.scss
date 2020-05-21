@@ -15,3 +15,21 @@ ul { margin: 0; padding: 0; }
 a { color: #3583aa; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
+
+.header {
+  width: 100vw;
+  height: 600px;
+  background-image: url("images/bg-portfolio.jpg");
+  background-size: cover;
+  .global-nav {
+    display: inline-block;
+    margin: 0 0 0 auto;
+    &__list-text {
+      display: inline-flex;
+      list-style: none;
+      & a {
+        color: #ffffff;
+      }
+    }
+  }
+}

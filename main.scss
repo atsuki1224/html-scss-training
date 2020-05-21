@@ -22,11 +22,7 @@ a:hover { text-decoration: underline; }
   background-image: url("images/bg-portfolio.jpg");
   background-size: cover;
   .global-nav {
-    display: inline-block;
-    margin: 0 0 0 auto;
     &__list-text {
-      display: inline-flex;
-      list-style: none;
       & a {
         color: #ffffff;
       }

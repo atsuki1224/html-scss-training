@@ -17,20 +17,24 @@ a { color: #3583aa; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .header {
-  width: 100vw;
   height: 600px;
   background-image: url("images/bg-portfolio.jpg");
   background-size: cover;
   .global-nav {
-    float: right;
-    margin-top: 40px;
-    margin-right: 280px;
-    & li {
-      float: left;
-      list-style: none;
-      margin: 0 20px;
-      & a {
-        color: #ffffff;
+    &__list {
+      width: 43%;
+      margin: 0 0 0 auto;
+      display: flex;
+      & li {
+        list-style: none;
+      }
+      &-content {
+        margin-top: 65px;
+        margin-left: 55px;
+        font-family: 'Bitter', serif;
+        & a {
+          color: #ffffff;
+        }
       }
     }
   }

@@ -2,15 +2,15 @@
   height: 600px;
   background-image: url("images/bg-portfolio.jpg");
   background-size: cover;
-  .global-nav {
+  .globalnav-list {
     width: 43%;
     margin: 0 0 0 auto;
     padding-top: 65px;
-    &__list {
+    &__content {
       display: inline-block;
       margin-left: 55px;
       font-family: 'Bitter', serif;
-      &-content {
+      a {
         color: #ffffff; 
       }
     }

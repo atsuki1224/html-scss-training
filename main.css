@@ -2,15 +2,15 @@
   height: 600px;
   background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
   background-size: cover; }
-  .header .global-nav {
+  .header .globalnav-list {
     width: 43%;
     margin: 0 0 0 auto;
     padding-top: 65px; }
-    .header .global-nav__list {
+    .header .globalnav-list__content {
       display: inline-block;
       margin-left: 55px;
       font-family: 'Bitter', serif; }
-      .header .global-nav__list-content {
+      .header .globalnav-list__content a {
         color: #ffffff; }
 
 body {

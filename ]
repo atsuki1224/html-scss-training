@@ -1,10 +1,12 @@
 @import "module/_header.scss";
+@import "module/_content-main.scss";
 
 @charset "utf-8";
 
 body {
   margin: 0;
   padding: 0;
+  background-color: #cccccc;
   color: #333333;
   font-size: 15px;
   line-height: 2;

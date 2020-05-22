@@ -2,18 +2,18 @@
   height: 600px;
   background-image: url("images/bg-portfolio.jpg");
   background-size: cover;
+
   .global-nav {
+    width: 43%;
+    margin: 0 0 0 auto;
+    padding-top: 65px;
+
     &__list {
-      width: 43%;
-      margin: 0 0 0 auto;
-      padding-top: 65px;
-      & li {
-        display: inline-block;
-        margin-left: 55px;
-        font-family: 'Bitter', serif;
-      }
-      &-content a{
-        color: #ffffff;
+      display: inline-block;
+      margin-left: 55px;
+      font-family: 'Bitter', serif;
+      &-content {
+        color: #ffffff; 
       }
     }
   }

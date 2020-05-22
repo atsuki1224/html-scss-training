@@ -1,3 +1,5 @@
+@import "module/_header.scss";
+
 @charset "utf-8";
 
 body {
@@ -15,27 +17,3 @@ ul { margin: 0; padding: 0; }
 a { color: #3583aa; text-decoration: none; }
 
 a:hover { text-decoration: underline; }
-
-.header {
-  height: 600px;
-  background-image: url("images/bg-portfolio.jpg");
-  background-size: cover;
-  .global-nav {
-    &__list {
-      width: 43%;
-      margin: 0 0 0 auto;
-      display: flex;
-      & li {
-        list-style: none;
-      }
-      &-content {
-        margin-top: 65px;
-        margin-left: 55px;
-        font-family: 'Bitter', serif;
-        & a {
-          color: #ffffff;
-        }
-      }
-    }
-  }
-}

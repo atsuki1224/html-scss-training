@@ -13,6 +13,9 @@
       .header .globalnav-list__content a {
         color: #ffffff; }
 
+.main .article {
+  width: 300px; }
+
 body {
   margin: 0;
   padding: 0;

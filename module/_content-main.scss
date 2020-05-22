@@ -1,0 +1,13 @@
+.main {
+  .article {
+    width: 300px;
+    .main-content {
+      &__item {
+      }
+    }
+    .sub-content {
+      &__item {
+      }
+    }
+  }
+}

@@ -7,9 +7,9 @@
       width: 43%;
       margin: 0 0 0 auto;
       & li {
+        display: inline-block;
         margin-top: 65px;
         margin-left: 55px;
-        display: inline-block;
         font-family: 'Bitter', serif;
       }
       &-content a{

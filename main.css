@@ -4,16 +4,17 @@
   background-size: cover; }
   .header .global-nav__list {
     width: 43%;
-    margin: 0 0 0 auto;
-    display: flex; }
+    margin: 0 0 0 auto; }
     .header .global-nav__list li {
-      list-style: none; }
-    .header .global-nav__list-content {
       margin-top: 65px;
       margin-left: 55px;
+      display: inline-block;
       font-family: 'Bitter', serif; }
-      .header .global-nav__list-content a {
-        color: #ffffff; }
+    .header .global-nav__list-content a {
+      color: #ffffff; }
+
+.wrap .content .main {
+  width: 700px; }
 
 body {
   margin: 0;

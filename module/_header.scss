@@ -6,17 +6,14 @@
     &__list {
       width: 43%;
       margin: 0 0 0 auto;
-      display: flex;
       & li {
-        list-style: none;
-      }
-      &-content {
         margin-top: 65px;
         margin-left: 55px;
+        display: inline-block;
         font-family: 'Bitter', serif;
-        & a {
-          color: #ffffff;
-        }
+      }
+      &-content a{
+        color: #ffffff;
       }
     }
   }

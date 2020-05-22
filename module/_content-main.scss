@@ -1,0 +1,15 @@
+.wrap{
+  .content {
+    .main {
+      width: 700px;
+      &__h1 {
+        &-item {
+        }  
+      }
+      &__h2 {
+        &-item {
+        }
+      }
+    }
+  }
+}

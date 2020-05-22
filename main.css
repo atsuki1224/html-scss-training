@@ -2,17 +2,17 @@
   height: 600px;
   background-image: url(9c51512420d70040e8aab73d831949b5.jpg);
   background-size: cover; }
-  .header .header-nav__list {
+  .header .global-nav__list {
     width: 43%;
     margin: 0 0 0 auto;
     display: flex; }
-    .header .header-nav__list li {
+    .header .global-nav__list li {
       list-style: none; }
-    .header .header-nav__list-content {
+    .header .global-nav__list-content {
       margin-top: 65px;
       margin-left: 55px;
       font-family: 'Bitter', serif; }
-      .header .header-nav__list-content a {
+      .header .global-nav__list-content a {
         color: #ffffff; }
 
 body {

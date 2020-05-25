@@ -2,6 +2,7 @@
   .article {
     width: 700px;
     margin: 0 10px;
+    float: left;
     .main-content {
       &__item {
       }
@@ -10,5 +11,10 @@
       &__item {
       }
     }
+  }
+  .sidebar {
+    width: 200px;
+    margin: 0 10px 0 30px;
+    float: right;
   }
 }

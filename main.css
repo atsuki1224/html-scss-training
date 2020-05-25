@@ -15,7 +15,13 @@
 
 .main .article {
   width: 700px;
-  margin: 0 10px; }
+  margin: 0 10px;
+  float: left; }
+
+.main .sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right; }
 
 body {
   margin: 0;

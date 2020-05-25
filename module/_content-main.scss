@@ -1,17 +1,17 @@
 .portfolio {
-  width: 960px;
+  width:  960px;
   margin: 30px auto 0 ;
   &-categoly {
     display: inline-block;
-    width: 700px;
-    margin: 0 10px;
+    width:   700px;
+    margin:  0 10px;
   }
   .sidebar {
-    display: inline-block;
-    width: 200px;
+    display:        inline-block;
+    width:          200px;
     vertical-align: top;
     &__list {
-      display: inline-block;
+      display:     inline-block;
       margin-left: 20px;
       &-item {
         color: #000000;

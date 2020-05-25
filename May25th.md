@@ -3,6 +3,7 @@
 ## TIPS
 - `margin: 0 auto;`は`inline-block`化したオブジェクトには効かない。
 - 要素を中央に配置する方法として、親要素に対して`text-aligin: center;`を指定する方法がある。
+- プロパティのインデントを揃えると綺麗。
 
 ## display: inline-block; について
 要素の横並びを実現させたい時に使用する`display: inline-block;`は  

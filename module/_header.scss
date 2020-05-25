@@ -1,16 +1,16 @@
 .header {
-  height: 600px;
+  height:           600px;
   background-image: url("images/bg-portfolio.jpg");
-  background-size: cover;
-  .global-nav {
-    width: 43%;
-    margin: 0 0 0 auto;
+  background-size:  cover;
+  .globalnav-list {
+    width:       43%;
+    margin:      0 0 0 auto;
     padding-top: 65px;
-    &__list {
-      display: inline-block;
+    &__content {
+      display:     inline-block;
       margin-left: 55px;
       font-family: 'Bitter', serif;
-      &-content {
+      &-link {
         color: #ffffff; 
       }
     }

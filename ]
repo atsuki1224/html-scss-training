@@ -1,20 +1,21 @@
-@import "module/_header.scss";
-@import "module/_content-main.scss";
-
-@charset "utf-8";
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #cccccc;
-  color: #333333;
-  font-size: 15px;
-  line-height: 2;
-  position:    relative;
+.portfolio {
+  width: 960px;
+  margin: 30px auto 0 ;
+  &-categoly {
+    display: inline-block;
+    width: 700px;
+    margin: 0 10px;
+  }
+  .sidebar {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    &__list {
+      display: inline-block;
+      margin-left: 20px;
+      & a {
+        &-item: #000000;
+      }
+    }
+  }
 }
-
-ul { margin: 0; padding: 0; }
-
-a { color: #3583aa; text-decoration: none; }
-
-a:hover { text-decoration: underline; }

@@ -1,18 +1,4 @@
+@import "module/reset";
 @import "module/_header.scss";
+@import "module/content-main.scss";
 
-@charset "utf-8";
-
-body {
-  margin: 0;
-  padding: 0;
-  color: #333333;
-  font-size: 15px;
-  line-height: 2;
-  position:    relative;
-}
-
-ul { margin: 0; padding: 0; }
-
-a { color: #3583aa; text-decoration: none; }
-
-a:hover { text-decoration: underline; }

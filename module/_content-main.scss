@@ -17,7 +17,7 @@
   }
   .sidebar {
     display: inline-block;
-    position: absolute;
+    vertical-align: top;
     width: 200px;
     &__list {
       display: inline-block;

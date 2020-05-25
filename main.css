@@ -23,7 +23,7 @@
     text-align: left; }
   .main .sidebar {
     display: inline-block;
-    position: absolute;
+    vertical-align: top;
     width: 200px; }
     .main .sidebar__list {
       display: inline-block; }

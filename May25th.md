@@ -85,12 +85,20 @@ color: blue;
 
 ### extend
 CSSでも継承を使用することができる。  
+継承元のクラス名をextendで指定することで同じプロパティを継承することができる。  
+コンパイル時には継承元のクラスも、通常のCSSと同じように記述される。  
+クラス名の先頭に%をつけることでコンパイル時に表示されないようにできる。  
+コンパイル時にはincludeと同じく同じプロパティがそれぞれのクラスに書き込まれることになるので、積もると読み込みの遅さにつながる。  
+
 ```
+// extendsされることが前提のclass
+
 .section-container {
   width:       400px;
   text-aligin: center;
 }
-// extendsされることが前提のclass
+
+// %をつけるとコンパイル時に記述されない
 %section-container {
   width:       400px;
   text-aligin: center;
@@ -103,4 +111,9 @@ color: red;
 color: blue;
   extend section-container;
 }
+```
+
+以上のような挙動になる。  
+それぞれプロダクトの記述ルールがあると思うが、サブクラスが読み込みなどの影響も含めて最適な記述に感じた。  
+
 

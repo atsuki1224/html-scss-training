@@ -5,6 +5,9 @@
     display: inline-block;
     width:   700px;
     margin:  0 10px;
+    &__main-content {
+      border-bottom: 1px solid #D3D3D3;
+    }
   }
   .sidebar {
     display:        inline-block;

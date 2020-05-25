@@ -39,6 +39,8 @@ a:hover {
     display: inline-block;
     width: 700px;
     margin: 0 10px; }
+    .portfolio-categoly__main-content {
+      border-bottom: 1px solid #D3D3D3; }
   .portfolio .sidebar {
     display: inline-block;
     width: 200px;

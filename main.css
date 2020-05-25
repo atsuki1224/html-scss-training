@@ -14,7 +14,8 @@
         color: #ffffff; }
 
 .main .article {
-  width: 300px; }
+  width: 700px;
+  margin: 0 10px; }
 
 body {
   margin: 0;

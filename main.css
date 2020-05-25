@@ -40,15 +40,15 @@ a:hover {
     width: 700px;
     margin: 0 10px; }
     .portfolio-categoly__main-content {
-      font-family: 'Bitter', serif;
+      border-bottom: 1px solid #cccccc;
       font-size: 36px;
-      border-bottom: 1px solid #cccccc; }
+      font-family: 'Bitter', serif; }
   .portfolio .sidebar {
     display: inline-block;
     width: 200px;
     margin-left: 30px;
-    vertical-align: top;
-    font-family: 'Bitter', serif; }
+    font-family: 'Bitter', serif;
+    vertical-align: top; }
     .portfolio .sidebar__list {
       display: inline-block;
       margin-left: 20px; }

@@ -24,6 +24,8 @@
     width: 200px; }
     .main .sidebar__list {
       display: inline-block; }
+      .main .sidebar__list a {
+        color: #000000; }
 
 body {
   margin: 0;

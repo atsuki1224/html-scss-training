@@ -18,6 +18,9 @@
     width: 200px;
     &__list {
       display: inline-block;
+      & a {
+        color: #000000;
+      }
     }
   }
 }

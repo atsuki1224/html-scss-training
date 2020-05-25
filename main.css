@@ -13,15 +13,16 @@
       .header .globalnav-list__content a {
         color: #ffffff; }
 
-.main .article {
-  width: 700px;
-  margin: 0 10px;
-  display: inline-block; }
-
-.main .sidebar {
-  width: 200px;
-  margin: 0 10px 0 30px;
-  display: inline-block; }
+.main {
+  text-align: center; }
+  .main .article {
+    width: 700px;
+    margin: 0 10px;
+    display: inline-block; }
+  .main .sidebar {
+    width: 200px;
+    margin: 0 10px 0 30px;
+    display: inline-block; }
 
 body {
   margin: 0;

@@ -2,7 +2,7 @@
 
 ## TIPS
 - `margin: 0 auto;`は`inline-block`化したオブジェクトには効かない。
-- 要素を中央に配置する方法として、親要素に対して`text-aligin: center;`を指定する方法がある。
+- 要素を中央に配置する方法として、親要素に対して`text-align: center;`を指定する方法がある。
 - プロパティのインデントを揃えると綺麗。
 
 ## display: inline-block; について
@@ -50,7 +50,7 @@ position: absoluteは絶対値の考え方で要素の位置を指定する。
 // 共通クラスのmixin
 mixin section-container {
   width:       400px;
-  text-aligin: center;
+  text-align: center;
 }
 
 .article-A {
@@ -80,7 +80,7 @@ color: blue;
 // 共通のサブクラス
 .section-container {
   width:       400px;
-  text-aligin: center;
+  text-align: center;
 }
 ```
 
@@ -96,13 +96,13 @@ CSSでも継承を使用することができる。
 
 .section-container {
   width:       400px;
-  text-aligin: center;
+  text-align: center;
 }
 
 // %をつけるとコンパイル時に記述されない
 %section-container {
   width:       400px;
-  text-aligin: center;
+  text-align: center;
 }
 .article-A {
 color: red;

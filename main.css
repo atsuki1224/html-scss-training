@@ -14,6 +14,7 @@
         color: #ffffff; }
 
 .main {
+  margin-top: 30px;
   text-align: center; }
   .main .article {
     display: inline-block;

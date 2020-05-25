@@ -16,14 +16,14 @@
 .main {
   text-align: center; }
   .main .article {
-    text-align: left;
+    display: inline-block;
     width: 700px;
     margin: 0 10px;
-    display: inline-block; }
+    text-align: left; }
   .main .sidebar {
     display: inline-block;
-    width: 200px;
-    position: absolute; }
+    position: absolute;
+    width: 200px; }
     .main .sidebar__list {
       display: inline-block; }
       .main .sidebar__list a {

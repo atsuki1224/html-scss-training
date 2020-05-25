@@ -1,10 +1,10 @@
 .main {
   text-align: center;
   .article {
-    text-align: left;
+    display: inline-block;
     width: 700px;
     margin: 0 10px;
-    display: inline-block;
+    text-align: left;
     .main-content {
       &__item {
       }
@@ -16,8 +16,8 @@
   }
   .sidebar {
     display: inline-block;
-    width: 200px;
     position: absolute;
+    width: 200px;
     &__list {
       display: inline-block;
       & a {

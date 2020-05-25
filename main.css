@@ -20,9 +20,10 @@
     margin: 0 10px;
     display: inline-block; }
   .main .sidebar {
-    width: 200px;
-    margin: 0 10px 0 30px;
-    display: inline-block; }
+    display: inline-block;
+    width: 200px; }
+    .main .sidebar__list {
+      display: inline-block; }
 
 body {
   margin: 0;

@@ -14,8 +14,10 @@
     }
   }
   .sidebar {
-    width: 200px;
-    margin: 0 10px 0 30px;
     display: inline-block;
+    width: 200px;
+    &__list {
+      display: inline-block;
+    }
   }
 }

@@ -21,7 +21,8 @@
     display: inline-block; }
   .main .sidebar {
     display: inline-block;
-    width: 200px; }
+    width: 200px;
+    position: absolute; }
     .main .sidebar__list {
       display: inline-block; }
       .main .sidebar__list a {

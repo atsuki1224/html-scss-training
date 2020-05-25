@@ -16,6 +16,7 @@
   .sidebar {
     display: inline-block;
     width: 200px;
+    position: absolute;
     &__list {
       display: inline-block;
       & a {

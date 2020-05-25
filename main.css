@@ -40,6 +40,8 @@ a:hover {
     width: 700px;
     margin: 0 10px; }
     .portfolio-categoly__main-content {
+      font-family: 'Bitter', serif;
+      font-size: 36px;
       border-bottom: 1px solid #cccccc; }
   .portfolio .sidebar {
     display: inline-block;

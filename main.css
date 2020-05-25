@@ -1,3 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+  position: relative; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #3583aa;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
 .header {
   height: 600px;
   background-image: url(9c51512420d70040e8aab73d831949b5.jpg);

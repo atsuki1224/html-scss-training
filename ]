@@ -13,8 +13,8 @@
     &__list {
       display: inline-block;
       margin-left: 20px;
-      &-item {
-        color: #000000;
+      & a {
+        &-item: #000000;
       }
     }
   }

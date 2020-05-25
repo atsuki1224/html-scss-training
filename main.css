@@ -27,7 +27,7 @@
     .portfolio .sidebar__list {
       display: inline-block;
       margin-left: 20px; }
-      .portfolio .sidebar__list a {
+      .portfolio .sidebar__list-item {
         color: #000000; }
 
 body {

@@ -13,21 +13,21 @@
       .header .globalnav-list__content a {
         color: #ffffff; }
 
-.main {
+.portfolio {
   margin-top: 30px;
   text-align: center; }
-  .main .article {
+  .portfolio-categoly {
     display: inline-block;
     width: 700px;
     margin: 0 10px;
     text-align: left; }
-  .main .sidebar {
+  .portfolio .sidebar {
     display: inline-block;
     vertical-align: top;
     width: 200px; }
-    .main .sidebar__list {
+    .portfolio .sidebar__list {
       display: inline-block; }
-      .main .sidebar__list a {
+      .portfolio .sidebar__list a {
         color: #000000; }
 
 body {

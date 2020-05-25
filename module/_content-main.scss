@@ -1,19 +1,11 @@
-.main {
+.portfolio {
   margin-top: 30px;
   text-align: center;
-  .article {
+  &-categoly {
     display: inline-block;
     width: 700px;
     margin: 0 10px;
     text-align: left;
-    .main-content {
-      &__item {
-      }
-    }
-    .sub-content {
-      &__item {
-      }
-    }
   }
   .sidebar {
     display: inline-block;

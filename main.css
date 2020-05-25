@@ -1,10 +1,10 @@
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   color: #333333;
   font-size: 15px;
-  line-height: 2;
-  position: relative; }
+  line-height: 2; }
 
 ul {
   margin: 0;
@@ -34,14 +34,20 @@ a:hover {
 
 .portfolio {
   width: 960px;
-  margin: 30px auto 0; }
+  margin: 30px auto 50px; }
   .portfolio-categoly {
     display: inline-block;
     width: 700px;
     margin: 0 10px; }
+    .portfolio-categoly__main-content {
+      border-bottom: 1px solid #cccccc;
+      font-size: 36px;
+      font-family: 'Bitter', serif; }
   .portfolio .sidebar {
     display: inline-block;
     width: 200px;
+    margin-left: 30px;
+    font-family: 'Bitter', serif;
     vertical-align: top; }
     .portfolio .sidebar__list {
       display: inline-block;

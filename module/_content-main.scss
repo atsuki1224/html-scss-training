@@ -1,6 +1,6 @@
 .portfolio {
-  margin: 30px auto 0 ;
   width: 960px;
+  margin: 30px auto 0 ;
   &-categoly {
     display: inline-block;
     width: 700px;
@@ -8,10 +8,11 @@
   }
   .sidebar {
     display: inline-block;
-    vertical-align: top;
     width: 200px;
+    vertical-align: top;
     &__list {
       display: inline-block;
+      margin-left: 20px;
       & a {
         color: #000000;
       }

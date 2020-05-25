@@ -14,18 +14,19 @@
         color: #ffffff; }
 
 .portfolio {
-  margin: 30px auto 0;
-  width: 960px; }
+  width: 960px;
+  margin: 30px auto 0; }
   .portfolio-categoly {
     display: inline-block;
     width: 700px;
     margin: 0 10px; }
   .portfolio .sidebar {
     display: inline-block;
-    vertical-align: top;
-    width: 200px; }
+    width: 200px;
+    vertical-align: top; }
     .portfolio .sidebar__list {
-      display: inline-block; }
+      display: inline-block;
+      margin-left: 20px; }
       .portfolio .sidebar__list a {
         color: #000000; }
 

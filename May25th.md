@@ -22,7 +22,7 @@
 
 ## position: absoluteについて
 position: absoluteは絶対値の考え方で要素の位置を指定する。  
-絶対値の初期値となる位置は`position: relative`で指定する。  
+絶対値の初期値となる位置は親要素の`position: relative`で指定する。  
 この初期値からどれだけの位置に要素を配置するかを指定するのに使用する。  
 
 ## クラスの命名規則に関して
